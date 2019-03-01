@@ -1,0 +1,93 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	display: -ms-flexbox;
+    display: flex;
+  	-ms-flex-align: center;
+  	align-items: center;
+  	padding-top: 40px;
+  	padding-bottom: 40px;
+  	background-color: #f5f5f5;
+}
+
+.form-signin {
+  	width: 100%;
+  	max-width: 330px;
+  	padding: 15px;
+  	margin: auto;
+}
+.form-signin .checkbox {
+  	font-weight: 400;
+}
+.form-signin .form-control {
+  	position: relative;
+  	box-sizing: border-box;
+  	height: auto;
+  	padding: 10px;
+  	font-size: 16px;
+}
+.form-signin .form-control:focus {
+  	z-index: 2;
+}
+.form-signin input[type="email"] {
+  	margin-bottom: -1px;
+  	border-bottom-right-radius: 0;
+  	border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  	margin-bottom: 10px;
+  	border-top-left-radius: 0;
+  	border-top-right-radius: 0;
+}
+
+form {
+	border: 3px solid #f1f1f1;
+	width: 40%;
+	display: inline-block;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 10px 18px;
+	margin: 8px 0;
+	display: block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #01A9DB;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.container {
+	padding: 16px;
+}
+
+span.passw {
+	float: right;
+	padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+	span.passw {
+		display: block;
+		float: none;
+	}
+}
+
+h1 {
+    text-decoration: none;
+	color: #4583c2;
+}

@@ -1,0 +1,59 @@
+html, body {
+	height: 100%;
+}
+
+body {
+  	-ms-flex-align: center;
+  	align-items: center;
+  	padding-top: 40px;
+  	padding-bottom: 40px;
+  	background-color: #f5f5f5;
+}
+
+button {
+	background-color: #01A9DB;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.container {
+	padding: 16px;
+}
+
+@media screen and (max-width: 300px) {
+	span.passw {
+		display: block;
+		float: none;
+	}
+}
+
+h1 {
+    text-decoration: none;
+	color: #4583c2;
+}
+
+.buy {
+	width: 150px;
+	height: 50px;
+	color: white;
+	background: #33b8ff;
+}
+
+.sell {
+	width: 150px;
+	height: 50px;
+	color: white;
+	background: #1cae25;
+}
+
+.buy:hover .sell:hover {
+	opacity: 0.8;
+}

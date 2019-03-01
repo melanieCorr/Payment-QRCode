@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+  <title>Mobile Payment</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <script type="text/javascript" src="/js/jquery.qrcode.js"></script>
+  <script type="text/javascript" src="/js/qrcode.js"></script>
+
+  <link href="/css/SellOrBuy.css" rel="stylesheet">
+
+
+</head>
+
+<body class="text-center">
+
+  <h1> QR Code  to scan </h1>
+
+   <div id="output" class="container"></div>
+
+  <script type='text/javascript'>
+    var id = <%- JSON.stringify(dataID) %>;
+    jQuery(function(){
+      jQuery('#output').qrcode("http://172.20.10.14:8081/recapTransaction/"+id);
+    })
+  </script>
+
+</body>
+
+</html>

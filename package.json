@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Qr application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "idk"
+  },
+  "keywords": [
+    "idk"
+  ],
+  "author": "MK",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
